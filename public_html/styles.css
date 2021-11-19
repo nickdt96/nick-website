@@ -1,0 +1,101 @@
+.first-section {
+    width: 100%;
+    height: 40rem;
+}
+
+.navbar {
+    font-size: 3rem;
+    font-family: WickedSeventies, serif;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-family: WickedSeventies, serif;
+}
+
+.header-title {
+    align-content: center;
+}
+
+.header-name {
+    font-size: 10rem;
+    font-family: WickedSeventies, serif;
+
+}
+.header-description {
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.second-section {
+    width:100%;
+    height: 30rem;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: WickedSeventies, serif;
+    text-align: center;
+}
+
+.bio-text {
+    color: white;
+    margin-top: 3em;
+    padding: 2em;
+    align-content: center;
+    text-align: left;
+}
+
+
+.portfolio-image img {
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.portfolio-image:hover {opacity: 0.7;}
+
+main {
+    color: white;
+}
+
+/*.my-form {
+    padding: 3em;
+}*/
+
+label {
+    display: block;
+    margin: 1em;
+    color: white;
+}
+
+.my-class {
+    border-style: solid;
+    padding: 2em;
+    margin: 3em;
+    border-color: red;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.20); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
