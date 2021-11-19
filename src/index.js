@@ -64,7 +64,7 @@ const handlePostRequest = (request, response) => {
     mailgunClient.messages.create(
         process.env.MAILGUN_DOMAIN,
         {
-            to: process.env.MAILGUN_RECIPIENT,
+            to: process.env.MAIL_RECIPIENT,
             from: `${name} <postmaster@${process.env.MAILGUN_DOMAIN}>`,
             subject: `${email}: ${subject}`,
             text:message
