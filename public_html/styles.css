@@ -62,22 +62,18 @@ main {
     color: white;
 }
 
-/*.my-form {
-    padding: 3em;
-}*/
-
 label {
     display: block;
     margin: 1em;
     color: white;
 }
 
-.my-class {
-    border-style: solid;
-    padding: 2em;
-    margin: 3em;
-    border-color: red;
+.logo {
+    width: 25%;
+    height: 25%;
 }
+
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
