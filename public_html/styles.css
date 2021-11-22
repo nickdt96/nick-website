@@ -1,11 +1,17 @@
+body {
+    background-color: #000000;
+}
+
 .first-section {
     width: 100%;
-    height: 40rem;
+    height: 45rem;
 }
 
 .navbar {
     font-size: 3rem;
     font-family: WickedSeventies, serif;
+    color: white;
+    position: absolute;
 }
 
 .navbar-brand{
@@ -20,11 +26,13 @@
 .header-name {
     font-size: 10rem;
     font-family: WickedSeventies, serif;
+    color: black;
 
 }
 .header-description {
     font-size: 2rem;
     font-family: "Bebas Neue", sans-serif;
+    color: black;
 }
 
 
@@ -69,8 +77,9 @@ label {
 }
 
 .logo {
-    width: 25%;
-    height: 25%;
+    width: 2.5%;
+    height: 2.5%;
+    margin: 1em;
 }
 
 
@@ -85,7 +94,7 @@ label {
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.20); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0); /* Black w/ opacity */
 }
 
 /* Modal Content (image) */
