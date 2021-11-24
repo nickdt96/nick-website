@@ -14,8 +14,19 @@
 <body>
 
 <!-- First Section/Splash -->
-<section class="container-fluid bg-light mb-3 d-flex justify-content-center text-center first-section">
+<section class="container-fluid mb-3 d-flex justify-content-center text-center first-section">
     <div class="row p-5 header-title">
+
+        <!--Video Background-->
+        <div class="video-background">
+            <div class="video-wrap">
+                <div id="video">
+                    <video id="bgvid" autoplay="autoplay" loop="loop" muted="muted" playsinline = "playsinline">
+                        <source src="./images/tvbackground.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
 
         <!-- Navbar Section -->
         <div class="container-md px-md-3 mt-md-3">
@@ -47,40 +58,44 @@
                 </div>
             </nav>
         </div>
+
         <h1 class="header-name">Nicholas Del Toro</h1>
         <h5 class="header-description">Web Designer + Collage Artist</h5>
         </div>
 
 </section>
+
+
 <section class="container-fluid">
     <div class="row">
         <!--    this space is just an empty box-->
     </div>
 </section>
 
+
 <!-- Gallery Section -->
 <section class="container-fluid p-5 mt-5 d-flex">
     <div class="row justify-content-center">
         <div class="col-md-2">
-            <img src="images/portfolioImages/yuppieParty.png" alt="Yuppie Party" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
-            <img src="images/portfolioImages/dreamOne.png" alt="Dream One" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/yuppieParty-min.png" alt="Yuppie Party" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/dreamOne-min.png" alt="Dream One" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
                     </div>
         <div class="col-md-2">
-            <img src="images/portfolioImages/manhunter.jpg" alt="Manhunter" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
-            <img src="images/portfolioImages/unripePeaches.jpg" alt="Unripe Peaches" class="img-fluid d-block mb-4 mx-auto                          portfolio-image">
+            <img src="images/portfolioImages/manhunter-min.jpg" alt="Manhunter" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/unripePeaches-min.jpg" alt="Unripe Peaches" class="img-fluid d-block mb-4 mx-auto                          portfolio-image">
                 </div>
 
         <div class="col-md-4">
-            <img src="images/portfolioImages/dematerialize.png" alt="Dematerialize" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/dematerialize-min.png" alt="Dematerialize" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
                 </div>
 
         <div class="col-md-2">
-            <img src="images/portfolioImages/fakeFlowers.png" alt="Fake Flowers" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
-            <img src="images/portfolioImages/hypnotize.png" alt="Hypnotize" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/fakeFlowers-min.png" alt="Fake Flowers" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
+            <img src="images/portfolioImages/hypnotize-min.png" alt="Hypnotize" class="img-fluid d-block mb-4 mx-auto portfolio-image"/>
                 </div>
         <div class="col-md-2">
-            <img src="images/portfolioImages/thoughtsInViolet.jpg" alt="Thoughts In Violet" class="img-fluid d-block mb-4 mx-auto portfolio-image">
-            <img src="images/portfolioImages/dominatrix.png" alt="Dominatrix" class="img-fluid d-block mb-4 mx-auto portfolio-image">
+            <img src="images/portfolioImages/thoughtsInViolet-min.jpg" alt="Thoughts In Violet" class="img-fluid d-block mb-4 mx-auto portfolio-image">
+            <img src="images/portfolioImages/dominatrix-min.png" alt="Dominatrix" class="img-fluid d-block mb-4 mx-auto portfolio-image">
             </div>
         </div>
 </section>
@@ -90,7 +105,7 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-body">
-                <img src="images/portfolioImages/yuppieParty.png" class="modal-img" alt="modal img">
+                <img src="images/portfolioImages/yuppieParty-min.png" class="modal-img" alt="modal img">
             </div>
         </div>
     </div>
@@ -127,7 +142,7 @@
 
                 <!-- BEGIN CONTACT FORM -->
                 <h1>Get In Touch</h1>
-                <form action="./apis/" id="contact" method="post" novalidate>
+                <form action="http://localhost:4200/apis/" id="contact" method="post" novalidate>
                     <div class="form-group">
                         <label for="name">Name</label>
                         <div class="input-group">
@@ -209,6 +224,6 @@
 
 <!-- custom jquery script-->
 <script src="script.js"></script>
-
+<script src="form.js"></script>
 </body>
 </html>

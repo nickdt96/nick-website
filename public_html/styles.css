@@ -9,14 +9,25 @@ body {
 
 .navbar {
     font-size: 3rem;
-    font-family: WickedSeventies, serif;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
     color: white;
     position: absolute;
 }
 
 .navbar-brand{
     font-size: 3rem;
-    font-family: WickedSeventies, serif;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;}
+
+.video-background{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .header-title {
@@ -25,10 +36,12 @@ body {
 
 .header-name {
     font-size: 10rem;
-    font-family: WickedSeventies, serif;
-    color: black;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;    color: black;
 
 }
+
 .header-description {
     font-size: 2rem;
     font-family: "Bebas Neue", sans-serif;
@@ -43,8 +56,9 @@ body {
 
 h1 {
     font-size: 8rem;
-    font-family: WickedSeventies, serif;
-    text-align: center;
+    font-family: 'CustomFont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;    text-align: center;
 }
 
 .bio-text {
